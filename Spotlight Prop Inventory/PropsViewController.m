@@ -6,13 +6,13 @@
 //  Copyright © 2017 Mante, Philip M. All rights reserved.
 //pmm01769@bitbucket.org:Arthrougs/spotlight-prop-inventory.git
 
-#import "FirstViewController.h"
+#import "PropsViewController.h"
 
-@interface FirstViewController ()
+@interface PropsViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation PropsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

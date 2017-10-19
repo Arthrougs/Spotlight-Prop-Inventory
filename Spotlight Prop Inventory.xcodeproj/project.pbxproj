@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C9478521F990EA200FB84A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9478511F990EA200FB84A8 /* main.m */; };
 		0C9478551F990EA200FB84A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9478541F990EA200FB84A8 /* AppDelegate.m */; };
-		0C9478581F990EA200FB84A8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9478571F990EA200FB84A8 /* FirstViewController.m */; };
+		0C9478581F990EA200FB84A8 /* PropsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9478571F990EA200FB84A8 /* PropsViewController.m */; };
 		0C94785B1F990EA200FB84A8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94785A1F990EA200FB84A8 /* SecondViewController.m */; };
 		0C94785E1F990EA200FB84A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C94785C1F990EA200FB84A8 /* Main.storyboard */; };
 		0C9478601F990EA200FB84A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C94785F1F990EA200FB84A8 /* Assets.xcassets */; };
@@ -40,8 +40,8 @@
 		0C9478511F990EA200FB84A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C9478531F990EA200FB84A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C9478541F990EA200FB84A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C9478561F990EA200FB84A8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		0C9478571F990EA200FB84A8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0C9478561F990EA200FB84A8 /* PropsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropsViewController.h; sourceTree = "<group>"; };
+		0C9478571F990EA200FB84A8 /* PropsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropsViewController.m; sourceTree = "<group>"; };
 		0C9478591F990EA200FB84A8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0C94785A1F990EA200FB84A8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0C94785D1F990EA200FB84A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 			children = (
 				0C9478531F990EA200FB84A8 /* AppDelegate.h */,
 				0C9478541F990EA200FB84A8 /* AppDelegate.m */,
-				0C9478561F990EA200FB84A8 /* FirstViewController.h */,
-				0C9478571F990EA200FB84A8 /* FirstViewController.m */,
+				0C9478561F990EA200FB84A8 /* PropsViewController.h */,
+				0C9478571F990EA200FB84A8 /* PropsViewController.m */,
 				0C9478591F990EA200FB84A8 /* SecondViewController.h */,
 				0C94785A1F990EA200FB84A8 /* SecondViewController.m */,
 				0C94785C1F990EA200FB84A8 /* Main.storyboard */,
@@ -280,7 +280,7 @@
 			files = (
 				0C94785B1F990EA200FB84A8 /* SecondViewController.m in Sources */,
 				0C9478551F990EA200FB84A8 /* AppDelegate.m in Sources */,
-				0C9478581F990EA200FB84A8 /* FirstViewController.m in Sources */,
+				0C9478581F990EA200FB84A8 /* PropsViewController.m in Sources */,
 				0C9478521F990EA200FB84A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
