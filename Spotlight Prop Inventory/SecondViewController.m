@@ -6,6 +6,8 @@
 //  Copyright © 2017 Mante, Philip M. All rights reserved.
 //
 //Test comment
+
+//Comment
 #import "SecondViewController.h"
 
 @interface SecondViewController ()
