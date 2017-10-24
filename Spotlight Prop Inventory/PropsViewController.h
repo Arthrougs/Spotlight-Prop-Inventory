@@ -10,6 +10,10 @@
 
 @interface PropsViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *txtProp;
+@property (weak, nonatomic) IBOutlet UITextField *txtLocation;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segViewEdit;
+-(IBAction)backgroundTap:(id)sender;
 
 @end
 

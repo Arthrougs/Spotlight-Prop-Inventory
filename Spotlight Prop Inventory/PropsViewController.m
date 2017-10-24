@@ -24,6 +24,28 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)editToggled:(id)sender { if (_segViewEdit.selectedSegmentIndex == 1)
+{
+    _txtProp.enabled =true;
+    _txtLocation.enabled = true;
+    
+    
+    
+}
+   else
+   {
+       _txtProp.enabled = false;
+       _txtLocation.enabled = false;
+       
+   }
+    
+}
+- (IBAction)saveProp:(id)sender {
+}
+- (IBAction)backgroundTap:(id)sender{
+    [self.view endEditing:YES];
+}
+
 
 
 @end
